@@ -1,21 +1,5 @@
+#include <iostream>
+using namespace std;
+
 int main() {
     int t1, t2, t3;
-
-    cout << "Enter first temperature: ";
-    cin >> t1;
-
-    cout << "Enter second temperature: ";
-    cin >> t2;
-int diff = t2 - t1;
-
-    if (diff > 50) {
-        cout << "Too hot! Reduce heat.";
-    } 
-    else if (diff < 10) {
-        cout << "Too low! Increase heat.";
-    } 
-    else {
-        cout << "Enter final temperature: ";
-        cin >> t3;
-
-        if (t3 >= 150 && t3 <= 190)
