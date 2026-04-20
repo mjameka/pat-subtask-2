@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t1, t2, t3;
+   cout << "Enter first temperature: ";
+    cin >> t1;
+
+    cout << "Enter second temperature: ";
+    cin >> t2;
+
+    int diff = t2 - t1;
