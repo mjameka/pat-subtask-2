@@ -10,3 +10,10 @@ int main() {
     cin >> t2;
 
     int diff = t2 - t1;
+ if (diff > 50) {
+        cout << "Too hot! Reduce heat.";
+    } 
+    else if (diff < 10) {
+        cout << "Too low! Increase heat.";
+    } 
+    else {
