@@ -22,3 +22,8 @@ int main() {
 
         if (t3 >= 150 && t3 <= 190)
             cout << "Perfect for frying.";
+          cout << "Not suitable for frying.";
+    }
+
+    return 0;
+}
